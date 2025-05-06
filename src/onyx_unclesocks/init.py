@@ -2,7 +2,7 @@ import re
 import os
 import json
 from argparse import ArgumentParser
-from maskpass import askpass
+from getpass import getpass
 from ssh import ssh_send
 from strings import logo, onyx_description, onyx_epilog
 
@@ -55,8 +55,8 @@ def user_input():
         
         ip_address = input("Target > ")
         username = input("Username > ")
-        password = askpass("Password > ")
-        enable_password = askpass("Enable # ")
+        password = getpass("Password > ")
+        enable_password = getpass("Enable # ")
 
         target_info = {'IP Address':ip_address, 'Username':username, 
                     'Password':password, 'Enable Password':enable_password}
