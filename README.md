@@ -1,6 +1,6 @@
 ![onyx](https://github.com/UncleSocks/onyx-caaat-cis-cisco-ios-assessment/assets/79778613/00acbed4-5b01-4c06-bfe5-963b53cd6559)
 
-# ONYX: Cisco Automated Assessment and Auditing Tool (CAAAT)
+# Onyx: Cisco Automated Assessment and Auditing Tool (CAAAT)
 
 ![Static Badge](https://img.shields.io/badge/License-MIT-yellow) ![Static Badge](https://img.shields.io/badge/Release-2024.1.0-pink) ![Static Badge](https://img.shields.io/badge/Supported%20Cisco%20IOS%20Versions-15%20and%2017-black)
 
@@ -222,3 +222,6 @@ Two sample HTML reports are provided for reference; `sample_ios15` for Cisco IOS
 - Cisco IOS XR Benchmark Recommendation assessment
 - Configuration files support
 - Multi-device assessment
+
+## Special Thanks To
+- **grotewortel** for providing multiple fixes, especially on the accuracy of the parsing, and for the recommending various features/functionality.
